@@ -1,8 +1,8 @@
-import { IPlatform } from './IPlatform';
+import { IPlatform } from './interfaces/IPlatform';
 
-import { LinuxPlatform } from './LinuxPlatform';
-import { WindowsPlatform } from './WindowsPlatform';
-import { MacPlatform } from './MacPlatform';
+import { LinuxPlatform } from './platforms/LinuxPlatform';
+import { WindowsPlatform } from './platforms/WindowsPlatform';
+import { MacPlatform } from './platforms/MacPlatform';
 
 export class PlatformFactory {
     static create(): IPlatform {

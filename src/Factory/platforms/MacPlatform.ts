@@ -1,4 +1,4 @@
-import { IPlatform } from './IPlatform';
+import { IPlatform } from '../interfaces/IPlatform';
 
 export class MacPlatform implements IPlatform {
     public platform(): string {
