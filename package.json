@@ -12,7 +12,7 @@
   },
   "scripts": {
     "pretest": "yarn build",
-    "test": "node --no-warnings --experimental-vm-modules node_modules/.bin/jest build --verbose",
+    "test": "node --no-warnings --experimental-vm-modules node_modules/.bin/jest build/**/test.js --verbose",
     "build": "tsc --build --verbose"
   }
 }
