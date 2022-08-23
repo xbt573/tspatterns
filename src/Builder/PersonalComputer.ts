@@ -1,4 +1,4 @@
-import { Part } from './Part';
+import { Part } from './types/Part';
 
 export class PersonalComputer {
     public parts: Part[] = [];

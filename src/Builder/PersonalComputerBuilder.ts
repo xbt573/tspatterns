@@ -1,8 +1,8 @@
 import { PersonalComputer } from './PersonalComputer';
-import { Cpu } from './Cpu';
-import { Gpu } from './Gpu';
-import { Ram } from './Ram';
-import { Hdd } from './Hdd';
+import { Cpu } from './parts/Cpu';
+import { Gpu } from './parts/Gpu';
+import { Ram } from './parts/Ram';
+import { Hdd } from './parts/Hdd';
 
 export class PersonalComputerBuilder {
     private _personalComputer: PersonalComputer;
